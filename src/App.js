@@ -1,8 +1,8 @@
 import './App.css';
 import React from 'react';
 import { Route, Switch, Link } from "react-router-dom";
-import About from './About';
-import Home from './Home';
+import About from './sites/About';
+import Home from './sites/Home';
 
 class App extends React.Component {
   render() {
@@ -16,9 +16,6 @@ class App extends React.Component {
                 </li>
                 <li>
                 <Link to="/about">About</Link>
-                </li>
-                <li>
-                <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </nav>

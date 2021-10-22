@@ -30,12 +30,12 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/Jobsearch' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/Alljobs' className='nav-links' onClick={closeMobileMenu}>
                                 Job Suchen
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/Jobmake' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/Jobinsert' className='nav-links' onClick={closeMobileMenu}>
                                 Job erstellen
                             </Link>
                         </li>
@@ -55,6 +55,12 @@ function Navbar() {
                             onClick={closeMobileMenu}
                             >
                                 <i className='fab fa-github'></i>
+                            </Link>
+                            <Link className='nav-links Account'
+                            to={'/Account'}
+                            onClick={closeMobileMenu}
+                            >Account
+                                {/* <i className='fab fa-acc'></i> */}
                             </Link>
                         </li>
                     </ul>

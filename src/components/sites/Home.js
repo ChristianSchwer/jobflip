@@ -22,7 +22,7 @@ class Home extends React.Component {
                     </div>
                     <div className="job set">
                         <button className="job-button">
-                            <Link to='/Alljobs' className='nav-links'>
+                            <Link to='/Jobinsert' className='nav-links'>
                                 JOB INSERIEREN
                             </Link>
                         </button>

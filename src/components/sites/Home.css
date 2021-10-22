@@ -1,0 +1,40 @@
+.choose {
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.job-button {
+    margin: 1rem;
+}
+
+.job {
+    color: black;
+}
+
+.jobs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.jobs-item {
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: wheat;
+}
+
+.item-title {
+    color: black;
+    font-weight: 700;
+}
+
+.item-description {
+    color: black;
+}
+
+.item-price {
+    color: black;
+}

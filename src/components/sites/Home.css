@@ -1,22 +1,32 @@
 .choose {
     background-color: beige;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    height: 60px;
+}
+
+.choose-links {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.job-button {
-    margin: 1rem;
-}
-
-.job {
+    justify-content: center;
+    text-decoration: none;
     color: black;
+    height: 100%;
+    align-items: center;
+}
+
+.choose-links:first-child {
+    border-right: 2px solid black;
+}
+
+.choose-links:last-child {
+    border-left: 2px solid black;
 }
 
 .jobs {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    height: 50vh;
 }
 
 .jobs-item {
@@ -24,6 +34,9 @@
     border: 1px solid white;
     border-radius: 5px;
     background-color: wheat;
+    object-fit: cover;
+    /* position: absolute; */
+    /* https://dev.to/siaust/make-your-own-html-carousel-in-react-177k#mouse-events */
 }
 
 .item-title {

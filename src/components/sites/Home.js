@@ -13,20 +13,12 @@ class Home extends React.Component {
                     <p>Jobflip comming soon...</p>
                 </div>
                 <div className="choose">
-                    <div className="job get">
-                        <button className="job-button">
-                            <Link to='/Alljobs' className='nav-links'>
-                                JOB ANNEHMEN
-                            </Link>
-                        </button>
-                    </div>
-                    <div className="job set">
-                        <button className="job-button">
-                            <Link to='/Jobinsert' className='nav-links'>
-                                JOB INSERIEREN
-                            </Link>
-                        </button>
-                    </div>
+                    <Link to='/Alljobs' className='choose-links'>
+                        JOB ANNEHMEN
+                    </Link>
+                    <Link to='/Jobinsert' className='choose-links'>
+                        JOB INSERIEREN
+                    </Link>
                 </div>
                 <div className="jobs">
                     <Job />
@@ -34,6 +26,11 @@ class Home extends React.Component {
                     <Job />
                     <Job />
                     <Job />
+                    <Job />
+                    {/* <Job />
+                    <Job />
+                    <Job />
+                    <Job /> */}
                 </div>
             </div>            
         );

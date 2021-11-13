@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/jobflip/static/css/main.8ab4df0a.chunk.css",
-    "main.js": "/jobflip/static/js/main.41fbdc67.chunk.js",
-    "main.js.map": "/jobflip/static/js/main.41fbdc67.chunk.js.map",
+    "main.css": "/jobflip/static/css/main.32aa56e6.chunk.css",
+    "main.js": "/jobflip/static/js/main.988eeb04.chunk.js",
+    "main.js.map": "/jobflip/static/js/main.988eeb04.chunk.js.map",
     "runtime-main.js": "/jobflip/static/js/runtime-main.d2440a5a.js",
     "runtime-main.js.map": "/jobflip/static/js/runtime-main.d2440a5a.js.map",
-    "static/js/2.15dbada2.chunk.js": "/jobflip/static/js/2.15dbada2.chunk.js",
-    "static/js/2.15dbada2.chunk.js.map": "/jobflip/static/js/2.15dbada2.chunk.js.map",
+    "static/js/2.0a0a3db4.chunk.js": "/jobflip/static/js/2.0a0a3db4.chunk.js",
+    "static/js/2.0a0a3db4.chunk.js.map": "/jobflip/static/js/2.0a0a3db4.chunk.js.map",
     "index.html": "/jobflip/index.html",
-    "static/css/main.8ab4df0a.chunk.css.map": "/jobflip/static/css/main.8ab4df0a.chunk.css.map",
-    "static/js/2.15dbada2.chunk.js.LICENSE.txt": "/jobflip/static/js/2.15dbada2.chunk.js.LICENSE.txt"
+    "static/css/main.32aa56e6.chunk.css.map": "/jobflip/static/css/main.32aa56e6.chunk.css.map",
+    "static/js/2.0a0a3db4.chunk.js.LICENSE.txt": "/jobflip/static/js/2.0a0a3db4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d2440a5a.js",
-    "static/js/2.15dbada2.chunk.js",
-    "static/css/main.8ab4df0a.chunk.css",
-    "static/js/main.41fbdc67.chunk.js"
+    "static/js/2.0a0a3db4.chunk.js",
+    "static/css/main.32aa56e6.chunk.css",
+    "static/js/main.988eeb04.chunk.js"
   ]
 }

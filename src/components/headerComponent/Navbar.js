@@ -48,7 +48,7 @@ function Navbar() {
                             to={'/Account'}
                             onClick={closeMobileMenu}
                             >Sign in
-                                <i class="far fa-user-circle"></i>
+                                <i className="far fa-user-circle"></i>
                         </Link>
                     </div>
                 </div>

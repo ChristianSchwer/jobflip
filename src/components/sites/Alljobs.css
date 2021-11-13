@@ -1,3 +1,31 @@
+.filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 8vh;
+}
+
+.filter-search {
+    height: 50%;
+}
+
+.filter-category {
+    height: 50%;
+}
+
+.filter-radius {
+    height: 50%;
+}
+
+.filter-salary {
+    height: 50%;
+}
+
+.filter-priority {
+    height: 50%;
+}
+
 .joblist {
     display: flex;
     flex-direction: row;

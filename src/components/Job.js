@@ -1,5 +1,5 @@
 import { React, useState } from 'react';
-import Logo from '../Logo.png';
+import Logo from '../images/Logo.png';
 import Jobmodal from './Jobmodal';
 
 function Job (jobdata) {

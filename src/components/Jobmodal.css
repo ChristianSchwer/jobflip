@@ -24,7 +24,81 @@
   }
 
   .modal-content-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+  
+  .image-content {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+  }
+
+  .slider {
+    position: relative;
+    height: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .right-arrow {
+    position: absolute;
+    right: 32px;
+    font-size: 3rem;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    color: white;
+  }
+
+  .left-arrow {
+    position: absolute;
+    left: 32px;
+    font-size: 3rem;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    color: white;
+  }
+
+  .slide {
+    opacity: 0;
+    transition-duration: 1s;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+    width: 90%;
+  }
+
+  .image-prev {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    gap: 10px;
+  }
+
+  .image-active {
+    border: 5px solid black;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .image-inactive {
+    border: none;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
   
   /* The Close Button */

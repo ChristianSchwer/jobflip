@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import './Jobmodal.css';
 // import Job from './Job.js';
-import Kitten from '../images/kitten.jpg';
-import City from '../images/city.jpg';
-import Garden from '../images/garden.jpg';
-import OpelGT from '../images/opel-gt.jpg';
-import Playground from '../images/playground.jpg';
+import Kitten from '../../images/kitten.jpg';
+import City from '../../images/city.jpg';
+import Garden from '../../images/garden.jpg';
+import OpelGT from '../../images/opel-gt.jpg';
+import Playground from '../../images/playground.jpg';
 
 function Jobmodal (data) {
     const [current, setCurrent] = useState(0);

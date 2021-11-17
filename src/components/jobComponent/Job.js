@@ -1,6 +1,7 @@
 import { React, useState } from 'react';
-import Logo from '../images/Logo.png';
+import Logo from '../../images/Logo.png';
 import Jobmodal from './Jobmodal';
+import './Job.css';
 
 function Job (jobdata) {
     const [show, setShow] = useState('none');

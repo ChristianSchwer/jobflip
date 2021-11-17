@@ -1,8 +1,20 @@
+.headline {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 0.5%;
+    padding: 10px;
+    background-color: white;
+}
+
 .choose {
-    background-color: beige;
+    /* background-color: beige; */
+    background-color: white;
     display: grid;
     grid-template-columns: repeat(2, 50%);
     height: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 0.5%;
 }
 
 .choose-links {
@@ -12,42 +24,50 @@
     color: black;
     height: 100%;
     align-items: center;
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    overflow: hidden;
 }
 
 .choose-links:first-child {
+    margin-left: -2px;
     border-right: 2px solid black;
 }
 
 .choose-links:last-child {
+    margin-left: -2px;
     border-left: 2px solid black;
+}
+
+.choose-text {
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    -o-transform: skew(15deg);
+}
+
+.newest-jobs {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 50vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 0.5%;
+    background-color: white;
+}
+
+.newest-jobs-headline {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-left: 10px;
+    height: 15%;
 }
 
 .jobs {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    height: 50vh;
-}
-
-.jobs-item {
-    margin: 10px;
-    border: 1px solid white;
-    border-radius: 5px;
-    background-color: wheat;
-    object-fit: cover;
-    /* position: absolute; */
-    /* https://dev.to/siaust/make-your-own-html-carousel-in-react-177k#mouse-events */
-}
-
-.item-title {
-    color: black;
-    font-weight: 700;
-}
-
-.item-description {
-    color: black;
-}
-
-.item-price {
-    color: black;
+    height: calc(85% - 10px);
 }

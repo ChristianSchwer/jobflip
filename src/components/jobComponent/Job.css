@@ -1,0 +1,25 @@
+.jobs-item {
+    margin: 0 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: wheat;
+    object-fit: cover;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    /* position: absolute; */
+    /* https://dev.to/siaust/make-your-own-html-carousel-in-react-177k#mouse-events */
+}
+
+.item-title {
+    color: black;
+    font-weight: 700;
+}
+
+.item-description {
+    color: black;
+}
+
+.item-price {
+    color: black;
+}
